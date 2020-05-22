@@ -6,6 +6,7 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
 
 1. Creación del proyecto
 1. Agrego una ruta básica
+1. Agrego una ruta dinámica
 
 ### 🤖 Guía Rápida
 
