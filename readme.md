@@ -5,6 +5,7 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
 ### 🚀 Logros
 
 1. Creación del proyecto
+1. Agrego una ruta básica
 
 ### 🤖 Guía Rápida
 
