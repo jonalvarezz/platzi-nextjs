@@ -1,5 +1,5 @@
 import { AppProps } from 'next/app'
-// import global CSS.
+import 'semantic-ui-css/semantic.min.css'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   // Aditional props
