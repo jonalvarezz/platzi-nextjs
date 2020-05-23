@@ -1,13 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import Layout from '../components/Layout'
 
 const HomePage = () => {
-  return (
-    <div>
-      <Navbar />
-      <div>Platzi and Next.js!</div>
-    </div>
-  )
+  return <Layout>Platzi and Next.js!</Layout>
 }
 
 export default HomePage
