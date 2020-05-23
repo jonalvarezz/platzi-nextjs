@@ -10,6 +10,7 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
 1. Enlazo páginas y creo una SPA
 1. Agrega nuestra propia API
 1. Páginas usando nuestra propia API
+1. Crea components App and Document personalizados
 
 ### 🤖 Guía Rápida
 
