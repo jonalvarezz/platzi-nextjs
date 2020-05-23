@@ -11,6 +11,7 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
 1. Agrega nuestra propia API
 1. Páginas usando nuestra propia API
 1. Crea components App and Document personalizados
+1. Configura path aliases
 
 ### 🤖 Guía Rápida
 
