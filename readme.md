@@ -12,6 +12,8 @@ Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para
 1. Páginas usando nuestra propia API
 1. Crea components App and Document personalizados
 1. Configura path aliases
+1. Crea páginas y componentes UI para el sitio.
+1. Crea Store simple usando Context
 
 ### 🤖 Guía Rápida
 
