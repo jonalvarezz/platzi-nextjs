@@ -2,7 +2,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@database": ["database/db.ts"]
+      "@database": ["database/db.ts"],
+      "@cors": ["cors-middleware.ts"]
     },
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],

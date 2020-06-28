@@ -13,6 +13,8 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@types/cors": "^2.8.6",
+    "cors": "^2.8.5",
     "next": "^9.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

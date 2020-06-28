@@ -1,8 +1,13 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import DB from '@database'
+import enablePublicAccess from '@cors'
 
 const AvoDetail = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
+    // Generally, you would not want this in your apps.
+    // See more in 'cors.js'
+    await enablePublicAccess(req, res)
+
     const db = new DB()
     const avoId = req.query.id as string
 
