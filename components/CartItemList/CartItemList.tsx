@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import { Item, Button, Loader, Message } from 'semantic-ui-react'
-import { CartItemType } from '@store/Cart'
+
+type CartItem = TProduct & { quantity: number }
 
 type CartItemListProps = {
-  items: CartItemType[]
+  items: CartItem[]
   removeFromCart: (product: TProduct) => void
   loading?: boolean
 }
@@ -26,7 +27,7 @@ const CartItemList = ({
       </Message>
     )
 
-  const mapCartItemsToItems = (items: CartItemType[]) =>
+  const mapCartItemsToItems = (items: CartItem[]) =>
     items.map((cartItem) => {
       const { id, name, quantity, price, image } = cartItem
 

@@ -1,15 +1,15 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Menu, Container } from 'semantic-ui-react'
 
 import { Avocado } from '@components/SVGIcons'
 import ShoppingCartIcon from './ShoppingCartIcon'
-import { useCart } from '@store/Cart'
 
 const Navbar = () => {
   const { pathname } = useRouter()
-  const { count: cartCount } = useCart()
+  // @TODO: FIXME :(
+  const cartCount = 0
 
   return (
     <Menu size="huge" borderless pointing as="header">
