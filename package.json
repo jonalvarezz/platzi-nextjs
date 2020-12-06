@@ -13,7 +13,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@types/cors": "^2.8.6",
+    "@types/cors": "^2.8.8",
     "cors": "^2.8.5",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^10.0.3",
