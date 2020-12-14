@@ -23,7 +23,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
-    "@types/node": "^14.14.10",
+    "@types/node": "^14.14.13",
     "@types/react": "^17.0.0",
     "husky": "^4.3.6",
     "prettier": "^2.2.1",
