@@ -20,7 +20,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
+    "semantic-ui-react": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.13",
