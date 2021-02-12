@@ -28,7 +28,7 @@ type TProduct = {
 type TAPIAVODetailResponse = TProduct
 
 type TAPIAvoResponse = {
-  lenght: number
+  length: number
   data: TProduct[]
   error?: string
 }
