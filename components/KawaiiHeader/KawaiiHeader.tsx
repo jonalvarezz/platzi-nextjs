@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { Confirm } from 'semantic-ui-react'
 
 import PuesVivo from './AnimatedHeader'
@@ -47,6 +48,10 @@ const KawaiiHeader = () => {
         closeOnDimmerClick={false}
       />
 
+      <Link href="/yes-or-no">
+        <a className="link">¿Debería comer aguacate hoy?</a>
+      </Link>
+
       <style jsx>
         {`
           .container {
@@ -56,6 +61,10 @@ const KawaiiHeader = () => {
             display: flex;
             align-items: center;
             justify-content: center;
+          }
+          .container :global(.link) {
+            display: block;
+            text-align: center;
           }
         `}
       </style>
