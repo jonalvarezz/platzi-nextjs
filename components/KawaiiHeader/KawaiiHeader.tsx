@@ -55,7 +55,7 @@ const KawaiiHeader = () => {
       <style jsx>
         {`
           .container {
-            margin: 2rem 0 3rem;
+            margin: 2rem 0;
           }
           .container :global(.header) {
             display: flex;

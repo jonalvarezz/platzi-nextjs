@@ -10,73 +10,74 @@ type YesOrNoApiResponse = {
 }
 
 const fetchResult = async () => {
-	const res = await fetch('https://platzi-nextjs-rose.vercel.app/yes-or-no')
-	const { data }: YesOrNoApiResponse = await res.json()
+  const res = await fetch('https://platzi-nextjs-rose.vercel.app/yes-or-no')
+  const { data }: YesOrNoApiResponse = await res.json()
 
-	return data
+  return data
 }
 
 export async function getServerSideProps() {
-	const initialResult = await fetchResult()
+  const initialResult = await fetchResult()
 
-	return {
-		props: {
-			initialResult,
-		}
-	}
+  return {
+    props: {
+      initialResult,
+    },
+  }
 }
 
 const YesOrNO = ({ initialResult }: { initialResult: string }) => {
-	const [isLoading, setIsLoading] = useState(false)
-	const [result, setResult] = useState(initialResult)
-	const [triggerCount, setTriggerCount] = useState(0)
+  const [isLoading, setIsLoading] = useState(false)
+  const [result, setResult] = useState(initialResult)
+  const [triggerCount, setTriggerCount] = useState(0)
 
-	useEffect(() => {
-		setIsLoading(true)
-		fetchResult().then((initialResult) => {
-			setResult(initialResult)
-			setIsLoading(false)
-		})
-	}, [triggerCount])
+  useEffect(() => {
+    setIsLoading(true)
+    fetchResult().then((initialResult) => {
+      setResult(initialResult)
+      setIsLoading(false)
+    })
+  }, [triggerCount])
 
-	const onClick = async () => {
-		setTriggerCount(triggerCount + 1)
-	}
+  const onClick = async () => {
+    setTriggerCount(triggerCount + 1)
+  }
 
-	return (
-		<Layout>
-			<div>
-				<Header as="h1" color={isLoading ? 'grey' : 'green'}>
-					{result}
-				</Header>
-				<p>
-					<Button
-						color = 'green'
-						onClick = {onClick}
-						loading = {isLoading}
-						disabled = {isLoading}
-					>
-						Intentar de nuevo
-					</Button>
-				</p>
-				<p>
-					<Link href="/">
-						<a className="ui black button basic">Volver al inicio</a>
-					</Link>
-				</p>
-			</div>
+  return (
+    <Layout>
+      <div>
+        <Header as="h1" color={isLoading ? 'grey' : 'green'}>
+          {result}
+        </Header>
+        <p>
+          <Button
+            color="green"
+            onClick={onClick}
+            loading={isLoading}
+            disabled={isLoading}
+          >
+            Intentar de nuevo
+          </Button>
+        </p>
+        <p>
+          <Link href="/">
+            <a className="ui black button basic">Volver al inicio</a>
+          </Link>
+        </p>
+      </div>
 
-			<style jsx>{`
-				div {
-					text-align: center;
-				}
+      <style jsx>{`
+        div {
+          text-align: center;
+        }
 
-				div :global(h1.header) {
+        div :global(h1.header) {
           font-size: 7rem;
-          text-transform: uppercase;				}
-			`}</style>
-		</Layout>
-	)
+          text-transform: uppercase;
+        }
+      `}</style>
+    </Layout>
+  )
 }
 
 export default YesOrNO
