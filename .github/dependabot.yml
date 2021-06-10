@@ -7,8 +7,8 @@ updates:
     # Look for `package.json` and `lock` files in the `root` directory
     directory: '/'
     schedule:
-      interval: 'weekly'
-      day: 'wednesday'
+      interval: 'monthly'
+      day: 'friday'
     open-pull-requests-limit: 10
     allow:
       - dependency-type: 'direct'
