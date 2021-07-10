@@ -39,7 +39,7 @@ const KawaiiHeader = () => {
 
       <Confirm
         open={modalOpen}
-        content={ModalHeaderContent}
+        content={{ children: ModalHeaderContent }}
         onCancel={closeModal}
         onConfirm={closeModal}
         cancelButton="Ay, lo siento"
