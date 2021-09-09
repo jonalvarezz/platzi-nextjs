@@ -17,6 +17,8 @@ const allAvos = async (req: IncomingMessage, res: ServerResponse) => {
     // https://nextjs.org/docs/api-routes/response-helpers
     res.statusCode = 200
     res.setHeader('Content-Type', 'application/json')
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'GET')
     res.end(JSON.stringify({ length, data: allEntries }))
   } catch (e) {
     console.error(e)
