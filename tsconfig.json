@@ -2,7 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@database": ["database/db.ts"]
+      "@database": ["database/db.ts"],
+      "@cors": ["cors-middeleware.ts"],
+      "@components/*": ["components/*"]
     },
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],

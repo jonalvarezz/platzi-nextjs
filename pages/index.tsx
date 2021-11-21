@@ -22,7 +22,6 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navbar />
       <div>Platzi and Next.js!</div>
       {avoList.map((avo) =>(
         <div> {avo.image} </div>
