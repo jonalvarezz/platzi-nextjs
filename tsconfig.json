@@ -5,7 +5,8 @@
       "@database": ["database/db.ts"],
       "@cors": ["cors-middleware.ts"],
       "@components/*": ["components/*"],
-      "@store/*": ["store/*"]
+      "@store/*": ["store/*"],
+      "@app/*": ["src/*"]
     },
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
