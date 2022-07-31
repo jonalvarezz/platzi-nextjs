@@ -5,7 +5,7 @@ const singleItem = async (req: NextApiRequest, res: NextApiResponse) => {
   const itemId = req.query.item
   const db = new DB()
 
-  const singleAvo = await db.getById(itemId)
+  const singleAvo: string = await db.getById(itemId)
 
   res.statusCode = singleAvo ? 200 : 500
   res.setHeader('Content-type', 'application/json')
