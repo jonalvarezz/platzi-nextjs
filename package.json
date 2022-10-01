@@ -26,7 +26,7 @@
     "semantic-ui-react": "2.x"
   },
   "devDependencies": {
-    "@types/node": "16.x",
+    "@types/node": "18.x",
     "@types/react": "17.x",
     "husky": "7.x",
     "prettier": "2.x",
