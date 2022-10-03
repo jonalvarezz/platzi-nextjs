@@ -18,7 +18,7 @@ const ProductSummary = ({ product }: ProductSummaryProps) => (
         <Item.Content>
           <Item.Header as="h1">{product.name}</Item.Header>
           <Item.Description>
-            <p>{product.price}</p>
+            <p>${product.price}</p>
             <Label>{`SKU: ${product.sku}`}</Label>
           </Item.Description>
           <Item.Extra>

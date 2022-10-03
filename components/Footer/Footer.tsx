@@ -39,10 +39,10 @@ const Footer = () => (
             <Header as="h4">Hecho para</Header>
             <p>
               <a href="https://platzi.com/">Platzi y su curso de Next.JS</a> de
-              Platzi dictado por{' '}
-              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a>
+              Platzi por{' '}
+              <a href="https://twitter.com/nahuegiordano">Nahuel Giordano</a>
             </p>
-            <List horizontal style={{ display: 'flex' }}>
+            {/* <List horizontal style={{ display: 'flex' }}>
               <List.Item
                 icon="twitter"
                 style={{ display: 'flex' }}
@@ -57,7 +57,7 @@ const Footer = () => (
                   </a>
                 }
               />
-            </List>
+            </List> */}
           </Grid.Column>
         </Grid.Row>
       </Grid>
