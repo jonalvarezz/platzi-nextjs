@@ -42,22 +42,6 @@ const Footer = () => (
               Platzi por{' '}
               <a href="https://twitter.com/nahuegiordano">Nahuel Giordano</a>
             </p>
-            {/* <List horizontal style={{ display: 'flex' }}>
-              <List.Item
-                icon="twitter"
-                style={{ display: 'flex' }}
-                content={<a href="https://twitter.com/jonalvarezz">Twitter</a>}
-              />
-              <List.Item
-                icon="github"
-                style={{ display: 'flex' }}
-                content={
-                  <a href="https://github.com/jonalvarezz/platzi-nextjs">
-                    GitHub
-                  </a>
-                }
-              />
-            </List> */}
           </Grid.Column>
         </Grid.Row>
       </Grid>
