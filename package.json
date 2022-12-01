@@ -31,7 +31,7 @@
     "husky": "7.x",
     "prettier": "2.x",
     "pretty-quick": "3.x",
-    "typescript": "4.4.x"
+    "typescript": "4.9.x"
   },
   "prettier": {
     "trailingComma": "es5",
