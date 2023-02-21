@@ -20,7 +20,7 @@
 * [Encontraste un error o mejora?](#-encontraste-un-error-o-mejora)
 
 ### 🔎 Cómo trabajar en este proyecto?
-El curso es totalmente práctico y progresivo. Este repositorio sólo existe como una guía para cuando lo necesites. Puedes realizar todo el curso en tu propio proyecto y tu propio repositorio.
+El curso es totalmente práctico y progresivo. Este repositorio solo existe como una guía para cuando lo necesites. Puedes realizar todo el curso en tu propio proyecto y tu propio repositorio.
 
 Avanzamos en el curso a un nuevo tema y no puedes o no quieres completar los cambios anteriores para continuar? 
 Empieza desde la etiqueta git correspondiente al módulo del curso.
@@ -59,7 +59,7 @@ Empieza desde la etiqueta git correspondiente al módulo del curso.
     git checkout -b jonalvarezz-javascript 4-javascript
     ```
 
-    Eso es todo, ya puedes iniciar con todos los cambios incluídos hasta ese módulo. En la [sección Tags de GitHub](https://github.com/jonalvarezz/platzi-optimizacion-web/tags), encuentras más información de cada etiqueta.
+    Eso es todo, ya puedes iniciar con todos los cambios incluidos hasta ese módulo. En la [sección Tags de GitHub](https://github.com/jonalvarezz/platzi-optimizacion-web/tags), encuentras más información de cada etiqueta.
     
 
 #### Bonus: Cómo subo mis cambios a otro repositorio?
@@ -108,12 +108,12 @@ git pull mi-repo branch-a-hacer-push
 1. Páginas usando nuestra propia API
 1. Crea components App and Document personalizados
 1. Configura path aliases
-1. Crea páginas y componentes UI para el sitio.
+1. Crea páginas y componentes UI para el sitio
 1. Crea Store simple usando Context
 
 
 ### 🐞 Encontraste un error o mejora?
-Ayuda a otros estudiantes con eso que acabas de descubrir que haría este curso y respositorio mucho mejor.
+Ayuda a otros estudiantes con eso que acabas de descubrir que haría este curso y repositorio mucho mejor.
 * En [Issues](https://github.com/jonalvarezz/platzi-optimizacion-web/issues/new) puedes reportar errores, agregar sugerencias y comentarios.
 * Por su parte, los [Pull Request](https://github.com/jonalvarezz/platzi-optimizacion-web/pulls) siempre estarán abiertos para recibir mejoras puntuales.
 
